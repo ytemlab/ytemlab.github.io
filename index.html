@@ -236,8 +236,8 @@ footer b{color:#fff;font-weight:500}
         <div class="glance-grid">
           <div class="glance-item">
             <span class="glance-num">8</span>
-            <span class="glance-text">Researchers</span>
-            <span class="glance-sub">1 PI · 1 PhD · 6 MS</span>
+            <span class="glance-text">Lab members</span>
+            <span class="glance-sub">1 PI · 1 PhD · 5 MS · 1 BS</span>
           </div>
           <div class="glance-item">
             <span class="glance-num">4</span>
@@ -272,19 +272,29 @@ footer b{color:#fff;font-weight:500}
       <article class="theme reveal">
         <div class="theme-no">01</div>
         <div class="theme-main">
-          <h3>Survival prediction &amp; uncertainty</h3>
+          <h3>Survival prediction &amp; statistical learning</h3>
           <p class="theme-question">How can we make reliable predictions when event times are censored or only partially observed?</p>
         </div>
         <div class="theme-projects">
+          <div class="project">
+            <h4>Conformal inference for survival prediction</h4>
+            <p>Distribution-free prediction sets and calibrated uncertainty for complex survival data, including settings where calibration outcomes are only partly observed.</p>
+          </div>
           <div class="project">
             <h4>Deep Gaussian process AFT models</h4>
             <p>Flexible, individualized predictive distributions for time-to-event outcomes under an accelerated-failure-time structure.</p>
             <p class="app-tag">Applications · ADNI · TCGA</p>
           </div>
           <div class="project">
-            <h4>Conformal inference for survival prediction</h4>
-            <p>Distribution-free prediction sets and calibrated uncertainty for complex survival data, including settings where calibration outcomes are only partly observed.</p>
+            <h4>Semi-supervised learning for survival data</h4>
+            <p>Leveraging partially labeled and unlabeled data to improve estimation and prediction when survival outcomes are incompletely observed.</p>
           </div>
+          <!--
+          <div class="project">
+            <h4>Positive-unlabeled learning with cure fractions</h4>
+            <p>Censoring-aware learning of susceptibility and survival when cure status is latent and event-free individuals cannot be directly classified as susceptible or cured.</p>
+          </div>
+          -->
         </div>
       </article>
 
@@ -316,12 +326,12 @@ footer b{color:#fff;font-weight:500}
           <div class="project">
             <h4>Policy effects on recurrent-event rates</h4>
             <p>Methods for evaluating policy changes when outcomes can recur and policy adoption varies across units and time.</p>
-            <p class="app-tag">Application · child-maltreatment reporting</p>
+            <p class="app-tag">Application · NCANDS Child maltreatment</p>
           </div>
           <div class="project">
             <h4>Mediation for survival outcomes</h4>
             <p>Decomposing survival differences into direct and indirect pathways under censoring.</p>
-            <p class="app-tag">Application · K-CURE breast cancer cohort</p>
+            <p class="app-tag">Application · K-CURE Breast cancer cohort</p>
           </div>
         </div>
       </article>
@@ -380,11 +390,13 @@ footer b{color:#fff;font-weight:500}
         <h3>Current openings</h3>
         <p>Y-TEM is actively recruiting PhD, MS, and undergraduate researchers across the research themes above.</p>
         <div class="contact">
-          [name]@yonsei.ac.kr<br>
-          [Building], Room [000]<br>
+          chihyunlee@yonsei.ac.kr<br>
+          Daewoo, Room [433]<br>
           Yonsei University<br>
           50 Yonsei-ro, Seodaemun-gu, Seoul 03722<br><br>
+          <!--
           <a href="#">Department page</a> · <a href="#">Google Scholar</a> · <a href="#">GitHub</a>
+          -->
         </div>
       </aside>
     </div>
@@ -400,24 +412,60 @@ footer b{color:#fff;font-weight:500}
     </div>
 
     <div class="pi reveal">
-      <div class="portrait">PI PHOTO<br>400 × 400</div>
+      <div class="portrait">
+       <img src="images/chihyun-lee.jpg" alt="Chi Hyun Lee">
+      </div>
       <div>
-        <h3>[Your Name]</h3>
+        <h3>Chi Hyun Lee</h3>
         <p class="role">Principal Investigator · Yonsei University</p>
+        <!--
         <p class="pi-copy">Add a concise research statement here: two or three sentences describing your training, your approach to modern survival and event-history methodology, and the questions currently motivating the lab.</p>
         <p class="people-links"><a href="#">CV</a> · <a href="#">Google Scholar</a> · <a href="#">GitHub</a></p>
+        -->
       </div>
     </div>
 
     <div class="people reveal">
-      <div class="person"><h3>[Name]</h3><p class="role">PhD student</p><p>Conformal inference for survival prediction.</p></div>
-      <div class="person"><h3>[Name]</h3><p class="role">MS student</p><p>Deep Gaussian-process survival modeling.</p></div>
-      <div class="person"><h3>[Name]</h3><p class="role">MS student</p><p>Regression with right-censored covariates.</p></div>
-      <div class="person"><h3>[Name]</h3><p class="role">MS student</p><p>Coarsened treatment-timing inference.</p></div>
-      <div class="person"><h3>[Name]</h3><p class="role">MS student</p><p>Policy effects for recurrent events.</p></div>
-      <div class="person"><h3>[Name]</h3><p class="role">MS student</p><p>Survival mediation and cancer outcomes.</p></div>
-      <div class="person"><h3>[Name]</h3><p class="role">MS student</p><p>Gene-panel selection and optimization.</p></div>
+      <div class="person"><h3>Jaeyoung Shin</h3><p class="role">PhD student</p><p>Conformal inference for survival prediction.</p></div>
+      <div class="person"><h3>Gwonseop Lim</h3><p class="role">MS student</p><p>Gene-panel selection and optimization.</p></div>
+      <div class="person"><h3>Ingyu Ham</h3><p class="role">MS student</p><p>Survival mediation and cancer outcomes.</p></div>
+      <div class="person"><h3>Jehoon Jeon</h3><p class="role">MS student</p><p>Conformal inference for survival prediction.</p></div>
+      <div class="person"><h3>Seula Chung</h3><p class="role">MS student</p><p>Regression with right-censored covariates. Coarsened treatment-timing inference.</p></div>
+      <div class="person"><h3>Chaewon Park</h3><p class="role">MS student</p><p>Deep Gaussian-process survival modeling.</p></div>
+      <div class="person"><h3>Youngchan Jeon</h3><p class="role">BS student</p><p>Policy effects for recurrent events.</p></div>
       <div class="person open"><h3>You?</h3><p class="role">Open position</p><p>PhD · MS · undergraduate research opportunities.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="funding">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Support &amp; collaboration</p>
+      <h2>Research support and partners</h2>
+      <p>External and institutional support enables methodological research, student training, and collaborative work across biomedical and social-science applications.</p>
+    </div>
+
+    <div class="funding reveal">
+      <div class="fund"><p class="kind">External</p><h3>Development of a Conformal-Based Predictive Uncertainty Quantification Framework for Survival Data</h3><p>NRF · [PI]</p><span class="yrs">[2026.03–2031.02]</span></div>
+      <div class="fund"><p class="kind">External</p><h3>Development of a Multi-QC Platform and QC Infrastructure Support System</h3><p>MOTIR · [Collaborator]</p><span class="yrs">[2026.01–2028.12]</span></div>
+      <div class="fund"><p class="kind">Institutional</p><h3>Policy in Practice: Evaluating the Effectiveness of Mandated Reporter Training on
+Child Protective Services Accuracy</h3><p>Internal Research Grant for Humanities and Social Sciences</p><span class="yrs">[2025.10–2028.03]</span></div>
+      <div class="fund"><p class="kind">Institutional</p><h3>Development of Statistical Methods for Evaluating the Impact of Recurrent Cardiovascular Events on Breast Cancer Survival</h3><p>Future Research Initiative</p><span class="yrs">[2024.11–2027.10]</span></div>
+    </div>
+
+    <div class="collab-intro reveal">
+      <h3>Collaborators &amp; coauthors</h3>
+      <p>Y-TEM works with colleagues at medical centers and universities in Korea and the United States.</p>
+      <div class="collab">
+        <span class="inst">MD Anderson Cancer Center</span>
+        <span class="inst">UC San Francisco</span>
+        <span class="inst">UNC Charlotte</span>
+        <span class="inst">University of Memphis</span>
+        <span class="inst">UMass Amherst</span>
+        <span class="inst">Korea University</span>
+        <span class="inst">KAIST</span>
+      </div>
     </div>
   </div>
 </section>
@@ -432,37 +480,6 @@ footer b{color:#fff;font-weight:500}
       <p class="placeholder-kicker">In preparation</p>
       <h3>This section is being updated.</h3>
       <p>Recent methodological submissions and arXiv preprints from Y-TEM will be added here as they become publicly available.</p>
-    </div>
-  </div>
-</section>
-
-<section id="funding">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">Support &amp; collaboration</p>
-      <h2>Research support and partners</h2>
-      <p>External and institutional support enables methodological research, student training, and collaborative work across biomedical and social-science applications.</p>
-    </div>
-
-    <div class="funding reveal">
-      <div class="fund"><p class="kind">External</p><h3>[Grant title]</h3><p>[Funding agency / program] · [Role]</p><span class="yrs">[2025–2028]</span></div>
-      <div class="fund"><p class="kind">External</p><h3>[Grant title]</h3><p>[Funding agency / program] · [Role]</p><span class="yrs">[2024–2027]</span></div>
-      <div class="fund"><p class="kind">Institutional</p><h3>[Grant title]</h3><p>[Yonsei program]</p><span class="yrs">[2025–2026]</span></div>
-      <div class="fund"><p class="kind">Institutional</p><h3>[Grant title]</h3><p>[Yonsei program]</p><span class="yrs">[2025–2026]</span></div>
-    </div>
-
-    <div class="collab-intro reveal">
-      <h3>Collaborators &amp; coauthors</h3>
-      <p>Y-TEM works with colleagues at medical centers and universities in Korea and the United States.</p>
-      <div class="collab">
-        <span class="inst">UC San Francisco</span>
-        <span class="inst">MD Anderson Cancer Center</span>
-        <span class="inst">Fred Hutchinson Cancer Center</span>
-        <span class="inst">UNC Charlotte</span>
-        <span class="inst">UMass Amherst</span>
-        <span class="inst">University of Memphis</span>
-        <span class="inst">Korea University Medicine</span>
-      </div>
     </div>
   </div>
 </section>
